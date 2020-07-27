@@ -5,7 +5,72 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  height: 100%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+/* navigation */
+nav {
+  background-color: silver;
+  margin: 0 auto;
+  position: relative;
+  width: 80%;
+  padding: 5px 10px 5px 15px;
+  display: block;
+  height: 30px;
+  margin: 3px auto;
+
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.nav-items {
+  /*border: 2px solid black;*/
+  display: table;
+  float: left;
+  width: 845px;
+  table-layout: fixed;
+  /*padding: 5px 10px 5px 15px;*/
+  border-right: 2px solid black;
+
+}
+
 /* first-bg */
 .first-bg {
-  background-image: url("https://web.archive.org/web/20140301004610/http://www.apple.com/your-verse/");
+  background-image: url("./img/background-img.jpg");
+  background-position: center bottom;
+  height: 550px;
+}
+
+.second-bg {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+}
+
+.second-bg-images {
+  width: 50px;
+  height: 50px;
+}
+
+footer {
+  margin-top: auto;
 }
