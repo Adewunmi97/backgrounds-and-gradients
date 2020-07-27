@@ -28,29 +28,29 @@ nav {
   background-color: silver;
   margin: 0 auto;
   position: relative;
-  width: 80%;
+  width: 75%;
   padding: 5px 10px 5px 15px;
   display: block;
-  height: 30px;
-  margin: 3px auto;
-
+  height: 36px;
+  top: 80px;
+  border-radius: 5px;
+  background: linear-gradient(#8b8989 0%, #6d6d6d 50%, #585858 10%, #777 100%);
 }
 
 .nav-links {
   display: flex;
   justify-content: space-between;
-
 }
 
 .nav-items {
   /*border: 2px solid black;*/
-  display: table;
+  /* display: table; */
   float: left;
   width: 845px;
   table-layout: fixed;
   /*padding: 5px 10px 5px 15px;*/
-  border-right: 2px solid black;
-
+  border-right: 2px solid grey;
+  text-align: center;
 }
 
 /* first-bg */
@@ -59,11 +59,19 @@ nav {
   background-position: center bottom;
   height: 550px;
 }
+.headings {
+  text-align: center;
+  position: relative;
+  top: 125px;
+  color: white;
+}
+.link-to a:hover {
+  text-decoration: underline;
+}
 
 .second-bg {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-
 }
 
 .second-bg-images {
@@ -72,5 +80,7 @@ nav {
 }
 
 footer {
-  margin-top: auto;
+  width: 100%;
+  height: 20px;
+  margin: auto;
 }
