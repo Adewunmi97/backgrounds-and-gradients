@@ -1,0 +1,11 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* first-bg */
+.first-bg {
+  background-image: url("https://web.archive.org/web/20140301004610/http://www.apple.com/your-verse/");
+}
