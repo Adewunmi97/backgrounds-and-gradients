@@ -26,7 +26,6 @@ a {
 
 /* navigation */
 nav {
-  background-color: silver;
   margin: 0 auto;
   position: relative;
   width: 75%;
@@ -51,18 +50,22 @@ input img {
   align-items: center;
 }
 
+footer a {
+  color: rgb(60, 60, 231);
+}
+
 .headings a {
   color: white;
   font-size: 25px;
-  opacity: 80%;
+  opacity: 0.8;
+}
+
+.nav-items a {
+  color: white;
 }
 
 .headings a:hover {
   text-decoration: underline;
-  color: white;
-}
-
-.nav-items a {
   color: white;
 }
 
@@ -120,18 +123,11 @@ footer {
   margin-top: 30px;
 }
 
-footer a {
-  color: rgb(60, 60, 231);
-}
-
 .third-bg-items {
-  margin-top: 200px;
   width: 80%;
-  margin: 0 auto;
+  margin: 20px auto 0 auto;
   font-size: 13px;
-
 }
-
 
 .footer-content {
   justify-content: space-between;
