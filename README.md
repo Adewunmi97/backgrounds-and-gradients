@@ -19,7 +19,7 @@ The project is built using Html and Css with an extensive use of the grid, flex 
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/Adewunmi97/backgrounds-and-gradients/6ff098413ddea06870f29c7764335262a33a56eb/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Adewunmi97/backgrounds-and-gradients/b233e14b0e03040325831937a9ac39649ad59439/index.html)
 
 ## To get a local copy up and running follow these simple example steps.
 
