@@ -59,10 +59,6 @@ input {
   fill: white;
 }
 
-footer a {
-  color: rgb(60, 60, 231);
-}
-
 .headings a {
   color: white;
   font-size: 25px;
@@ -71,6 +67,10 @@ footer a {
 
 .nav-items a {
   color: white;
+}
+
+.footer-content a {
+  color: rgb(60, 60, 231);
 }
 
 .headings a:hover {
@@ -87,7 +87,6 @@ footer a {
 }
 
 .nav-items {
-  float: left;
   width: 845px;
   table-layout: fixed;
   border-right: 2px solid grey;
@@ -161,25 +160,6 @@ footer {
   justify-content: space-between;
 }
 
-.footer-links {
-  margin-left: 4px;
-  margin-right: 4px;
-  text-align: center;
-}
-
-.footer-links :hover {
-  text-decoration: underline;
-}
-
 .footer-content a:hover {
-  text-decoration: underline;
-}
-
-.copyright {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.copyright a:hover {
   text-decoration: underline;
 }
