@@ -33,12 +33,14 @@ nav {
   display: block;
   top: 80px;
   border-radius: 5px;
-  background: linear-gradient(#8b8989 0%, #6d6d6d 50%, #585858 10%, #777 100%);
 }
 
 input {
-  background: linear-gradient(#8b8989 0%, #6d6d6d 50%, #585858 10%, #777 100%);
   border-radius: 15px;
+}
+
+.background-gradient {
+  background: linear-gradient(#8b8989 0%, #6d6d6d 50%, #585858 10%, #777 100%);
 }
 
 .lens {
@@ -115,6 +117,8 @@ h2 {
 /* first-bg */
 .first-bg {
   background-image: url("./img/background-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   background-position: center bottom;
   height: 550px;
 }
