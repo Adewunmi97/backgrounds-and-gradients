@@ -3,11 +3,11 @@ This is a Apple website article page clone using HTML and CSS3.
 
 ## Screenshots of original website
 
-![screenshot](<./screenshot-apple1.png>)
+![screenshot](<./Screenshot-apple1.png>)
 
 ## Screenshots of our clone website
 
-![screenshot](<./screenshot-appl2.png>)
+![screenshot](<./Screenshot-appl2.png>)
 
 The project is built using Html and Css with an extensive use of the grid, flex and float css properties.
 
