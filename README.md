@@ -19,7 +19,7 @@ The project is built using Html and Css with an extensive use of the grid, flex 
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/RICKCOYL/positioning-and-floating-elements/336ee37158eebc225224d52a850578a766ba2986/index.html)
+[Live Demo Link](https://rawcdn.githack.com/Adewunmi97/backgrounds-and-gradients/8cff73aaa4a830cf0d023ca6be88a189287ec9c3/index.html)
 
 ## To get a local copy up and running follow these simple example steps.
 
