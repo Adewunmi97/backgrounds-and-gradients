@@ -1,0 +1,177 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+/* navigation */
+nav {
+  margin: 0 auto;
+  position: relative;
+  width: 75%;
+  padding: 5px 10px 5px 15px;
+  display: block;
+  top: 80px;
+  border-radius: 5px;
+}
+
+input {
+  border-radius: 15px;
+}
+
+.background-gradient {
+  background: linear-gradient(#8b8989 0%, #6d6d6d 50%, #585858 10%, #777 100%);
+}
+
+.lens {
+  position: absolute;
+  width: 15px;
+  height: 14px;
+}
+
+.lens svg {
+  position: absolute;
+  bottom: 17px;
+  left: 5px;
+}
+
+.lens-icon {
+  fill: white;
+}
+
+.headings a {
+  color: white;
+  font-size: 25px;
+  opacity: 0.8;
+}
+
+.nav-items a {
+  color: white;
+}
+
+.footer-content a {
+  color: rgb(60, 60, 231);
+}
+
+.headings a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.content-fill {
+  height: 100%;
+  width: 100%;
+}
+
+.nav-items {
+  width: 845px;
+  table-layout: fixed;
+  border-right: 2px solid grey;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.nav-links .nav-items:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.play-btn {
+  width: 20px;
+}
+
+/* headings */
+h1 {
+  font-size: 65px;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+/* first-bg */
+.first-bg {
+  background-image: url("./img/background-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center bottom;
+  height: 550px;
+}
+
+.headings {
+  text-align: center;
+  position: relative;
+  top: 125px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.link-to :hover a {
+  text-decoration: underline;
+  color: aliceblue;
+}
+
+.second-bg {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.second-bg-images {
+  width: 50px;
+  height: 50px;
+}
+
+footer {
+  position: relative;
+  top: 150px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.third-bg-items {
+  width: 80%;
+  margin: 20px auto 0 auto;
+  font-size: 13px;
+}
+
+.footer-content {
+  justify-content: space-between;
+}
+
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
+.link-list {
+  float: right;
+  font-size: 13px;
+  position: relative;
+  bottom: 17px;
+  right: 100px;
+}
