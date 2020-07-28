@@ -72,6 +72,8 @@ footer a {
 .nav-links {
   display: flex;
   justify-content: space-between;
+  height: 100%;
+  width: 100%;
 }
 
 .nav-items {
@@ -80,10 +82,24 @@ footer a {
   table-layout: fixed;
   border-right: 2px solid grey;
   text-align: center;
+  justify-content: center;
+}
+
+.nav-links .nav-items:hover {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .play-btn {
   width: 20px;
+}
+
+/* headings */
+h1 {
+  font-size: 65px;
+}
+
+h2 {
+  font-size: 30px;
 }
 
 /* first-bg */
@@ -98,6 +114,7 @@ footer a {
   position: relative;
   top: 125px;
   color: white;
+  margin-bottom: 15px;
 }
 
 .link-to :hover a {
@@ -143,7 +160,15 @@ footer {
   text-decoration: underline;
 }
 
+.footer-content a:hover {
+  text-decoration: underline;
+}
+
 .copyright {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.copyright a:hover {
+  text-decoration: underline;
 }
