@@ -50,8 +50,6 @@ input {
 }
 
 .lens svg {
-  width: 100%;
-  height: 100%;
   position: absolute;
   bottom: 17px;
   left: 5px;
@@ -83,9 +81,12 @@ input {
 .nav-links {
   display: flex;
   justify-content: space-between;
+  text-align: center;
+}
+
+.content-fill {
   height: 100%;
   width: 100%;
-  text-align: center;
 }
 
 .nav-items {
@@ -147,8 +148,6 @@ h2 {
 }
 
 footer {
-  width: 100%;
-  height: 100%;
   position: relative;
   top: 150px;
   margin-top: 20px;
@@ -167,4 +166,12 @@ footer {
 
 .footer-content a:hover {
   text-decoration: underline;
+}
+
+.link-list {
+  float: right;
+  font-size: 13px;
+  position: relative;
+  bottom: 17px;
+  right: 100px;
 }
